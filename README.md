@@ -38,3 +38,9 @@ git push origin HEAD:master
 
 **Note that the results files after training is too large (larger than 100MB) to be uploaded. Just keep it local.**
 
+### Update files in the cloud storage
+
+```sh
+git pullhttps://github.com/saturn-drm/facadeTranslator-pix2pix.git master
+```
+
