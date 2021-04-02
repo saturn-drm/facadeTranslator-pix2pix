@@ -8,6 +8,18 @@
 
 ## Usage
 
+### Clone to local
+
 ```sh
 git clone https://github.com/saturn-drm/facadeTranslator-pix2pix.git
 ```
+
+### Reverse the input images
+
+> This command will change the location of segment half and photo half in all the photos.
+
+```sh
+# switch to the data folder
+python reversePic.py path/to/source/folder path/to/target/folder
+```
+
