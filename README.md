@@ -14,6 +14,12 @@
 git clone https://github.com/saturn-drm/facadeTranslator-pix2pix.git
 ```
 
+### Typical training commnad
+
+```sh
+python pix2pix.py   --mode train   --output_dir trainRes/westernPic2Seg   --max_epochs 20   --input_dir data/westernPic2Seg/facades/train
+```
+
 ### Reverse the input images
 
 > This command will change the location of segment half and photo half in all the photos.
