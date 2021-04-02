@@ -23,3 +23,18 @@ git clone https://github.com/saturn-drm/facadeTranslator-pix2pix.git
 python reversePic.py path/to/source/folder path/to/target/folder
 ```
 
+### To push your results to GitHub through command line
+
+```sh
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git add .
+git status
+git commit -m 'commite name'
+git push origin HEAD:master
+# enter your username and pwd with instructions
+```
+
+**Note that the results files after training is too large (larger than 100MB) to be uploaded. Just keep it local.**
+
