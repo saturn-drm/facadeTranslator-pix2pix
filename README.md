@@ -47,6 +47,8 @@ git push origin HEAD:master
 ### Update files in the cloud storage
 
 ```sh
-git pullhttps://github.com/saturn-drm/facadeTranslator-pix2pix.git
+git pull https://github.com/saturn-drm/facadeTranslator-pix2pix.git main
+# OR
+git pull origin main
 ```
 
