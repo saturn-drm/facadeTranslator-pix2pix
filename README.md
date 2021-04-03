@@ -17,13 +17,13 @@ git clone https://github.com/saturn-drm/facadeTranslator-pix2pix.git
 ### Typical training commnad
 
 ```sh
-python pix2pix.py   --mode train   --output_dir trainRes/westernPic2Seg   --max_epochs 20   --input_dir data/westernPic2Seg/facades/train
+python pix2pix.py   --mode train   --output_dir trainRes/westernPic2Seg   --max_epochs 20   --input_dir data/westernPic2Seg/facades/train   --which_direction BtoA
 ```
 
 ### Typical testing command
 
 ```sh
-python pix2pix.py   --mode test   --output_dir output/westernPic2Seg/facades_test   --input_dir data/westernPic2Seg/facades/val --checkpoint trainRes/westernPic2Seg
+python pix2pix.py   --mode test   --output_dir output/westernPic2Seg/facades_test   --input_dir data/westernPic2Seg/facades/val   --checkpoint trainRes/westernPic2Seg
 ```
 
 ### Reverse the input images
