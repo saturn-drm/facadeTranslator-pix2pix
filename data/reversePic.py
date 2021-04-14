@@ -2,6 +2,7 @@ import os
 import sys
 from PIL import Image
 
+# Usage: python reversePic.py [infolder] [outfolder]
 infolder = sys.argv[1]
 outfolder = sys.argv[2]
 left_emu = (0, 0, 256, 256)
